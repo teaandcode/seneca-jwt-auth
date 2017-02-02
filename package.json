@@ -1,0 +1,41 @@
+{
+  "name": "seneca-jwt-auth",
+  "version": "0.1.0",
+  "description": "JWT auth plugin for seneca-auth",
+  "main": "jwt-auth.js",
+  "scripts": {
+    "test": "lab -r console -v -L -m 3000 -t 78"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teaandcode/seneca-jwt-auth.git"
+  },
+  "keywords": [
+    "seneca",
+    "auth",
+    "jwt",
+    "plugin"
+  ],
+  "author": {
+    "name": "Dave Nash",
+    "email": "dave.nash@teaandcode.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teaandcode/seneca-jwt-auth/issues"
+  },
+  "homepage": "https://github.com/teaandcode/seneca-jwt-auth#readme",
+  "dependencies": {
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "jsonwebtoken": "^7.2.1",
+    "lab": "^12.1.0",
+    "seneca": "plugin"
+  },
+  "peerDependencies": {
+    "seneca": "*",
+    "seneca-auth": "*"
+  }
+}
